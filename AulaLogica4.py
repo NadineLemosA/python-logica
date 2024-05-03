@@ -1,3 +1,4 @@
+#FOR(INICIO, PARADA, PASSO)
 for i in range(0,3,1):
     letra=input("Digite uma letra:")
     letraFinal=letra.lower()
