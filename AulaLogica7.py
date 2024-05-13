@@ -8,23 +8,23 @@ apresentada a mensagem “Senha Correta”,
 caso contrário, “Senha Incorreta”.
 '''
 
-# senhaSecreta=1234
-# while True:
-#     while True:
-#         try:
-#             print("Querido e Mimoso usuário:")
-#             senha=int(input("Digite a senha:"))
-#             break
-#         except:
-#             print("Somente números")
-#     if senha < 0 or senha > 9999:
-#         print('Máximo de 4 dígitos POSITIVOS')
-#     elif senha==senhaSecreta:
-#         print("Senha Correta")
-#         break
-#     else:
-#         print("Senha Incorreta")
-# print("LOGIN OK")
+senhaSecreta=1234
+while True:
+    while True:
+        try:
+            print("Querido e Mimoso usuário:")
+            senha=int(input("Digite a senha:"))
+            break
+        except:
+            print("Somente números")
+    if senha < 0 or senha > 9999:
+        print('Máximo de 4 dígitos POSITIVOS')
+    elif senha==senhaSecreta:
+        print("Senha Correta")
+        break
+    else:
+        print("Senha Incorreta")
+print("LOGIN OK")
 
 '''Faça um programa que simule a urna
 eletrônica.
@@ -122,13 +122,3 @@ else:
 #         print("Vencedor foi Carlos Luz ")
 #     elif cand3 > cand1 and cand3 > cand2:
 #         print("Vencedor foi Neves Rocha ")
-
-
-
-
-
-
-
-
-
-
