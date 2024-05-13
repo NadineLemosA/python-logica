@@ -20,7 +20,6 @@ lista1[3]="UNISENAC"
 print(lista1)
 
 #--------------------------------------------------------------
-
 #                   0          1            2
 lista_compras = ['banana','laranja','maçã']
 #                 -3           -2         -1
